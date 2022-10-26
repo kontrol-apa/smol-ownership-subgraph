@@ -2,6 +2,12 @@
   "avalanche": {
     "SmolJoe": {
       "address": "0xc70df87e1d98f6a531c8e324c9bcec6fc82b5e8d"
+    },
+    "SmolLand": {
+      "address": "0x77e0459eb2fefa3c772a7fabe45c746377b1ed10"
+    },
+    "SmolApa": {
+      "address": "0x3dd5e0f0659ca8b52925e504fe9f0250bfe68301"
     }
   }
 }

@@ -1,4 +1,23 @@
-type ExampleEntity @entity {
+type SmolLandNFT @entity {
   id: ID!
-  count: BigInt!
+  owner: Bytes! # address
+  tokenId: Int!
+  image: String!
+  offset: Int!
+}
+
+type SmolJoeNFT @entity {
+  id: ID!
+  owner: Bytes! # address
+  tokenId: Int!
+  image: String!
+  offset: Int!
+}
+
+type SmolApaNFT @entity {
+  id: ID!
+  owner: Bytes! # address
+  tokenId: Int!
+  image: String!
+  offset: Int!
 }
